@@ -1,0 +1,23 @@
+html, body{
+  padding: 1%;
+}
+
+table, td{
+  border: 8px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+table tr:nth-child(odd){
+  background-color: #ccc;
+}
+
+
+table tr:nth-child(2) td:nth-child(3),
+table tr:nth-child(2) td:nth-child(5),
+table tr:nth-child(2) td:nth-child(6),
+table tr:nth-child(3) td:nth-child(3),
+table tr:nth-child(3) td:nth-child(5),
+table tr:nth-child(3) td:nth-child(6){
+  background-color: #f442e5;
+}
